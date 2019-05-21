@@ -1,0 +1,32 @@
+    @font-face {
+        font-family: alarmClock;
+        src: url(../font/alarmClock.ttf);
+    }
+    
+    #localTime {
+        font-size: 50px;
+    }
+    
+    #localDate,
+    #temp,
+    #location,
+    #weatherCondition {
+        font-size: 20px;
+    }
+    
+    #currentTime {
+        display: relative;
+        margin: auto;
+        margin: 0 0%;
+    }
+    
+    #timeWrapper {
+        border: 2px solid;
+        width: 400px;
+        margin: auto;
+        margin-top: 200px;
+        text-align: center;
+        font-family: alarmClock, sans-serif;
+        background: rgb(0, 0, 0);
+        color: red;
+    }
