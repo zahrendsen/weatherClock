@@ -5,7 +5,7 @@
 $(document).ready(function() {
     var location = document.getElementById("location");
     var apiKey = "c61b32543cd2947a6ff8e4e2bfb384ae";
-    var url = "http://api.openweathermap.org/data/2.5/weather?";
+    var url = "https://api.openweathermap.org/data/2.5/weather?";
 
     navigator.geolocation.getCurrentPosition(success, error);
 
